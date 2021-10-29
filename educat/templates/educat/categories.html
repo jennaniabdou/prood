@@ -1,0 +1,61 @@
+
+
+  <!-- ======= Portfolio Section ======= -->
+  
+   
+
+
+    <section id="portfolio" class="portfolio section-bg">
+      <div id="btn1" style="text-align:center;">  
+      <button class="btn btn-primary" onclick="myFunction()">MENU</button>
+
+
+
+</div>
+
+
+
+        <div class="section-title">
+          <h2>CATEGORIES</h2>
+        </div>
+
+       
+        
+  
+        
+
+     
+
+
+        {% for categorie in categories %}
+
+
+        
+        
+ 
+
+
+
+
+ 
+</div>
+<div class="section group" style="text-align:center">
+  <div class="col span_1_of_3">
+ 
+ <button onclick="window.location.href = '#"> {{categorie.name}} </button>
+  </div>
+  
+</div>
+
+  </div>        
+
+
+
+
+
+     
+        {% endfor %}
+    </section><!-- End Portfolio Section -->
+
+
+
